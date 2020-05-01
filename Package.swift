@@ -9,9 +9,9 @@ let package = Package(
         .library(name: "S3TestTools", targets: ["S3TestTools"])
     ],
     dependencies: [
-        .package(name: "Vapor", url: "https://github.com/vapor/vapor.git", from: "3.0.0"),
+        .package(name: "Vapor", url: "https://github.com/vapor/vapor.git", from: "3.3.3"),
         .package(url: "https://github.com/LiveUI/XMLCoding.git", from: "0.4.1"),
-        .package(url: "https://github.com/LiveUI/VaporTestTools.git", from: "0.1.5")
+        .package(url: "https://github.com/LiveUI/VaporTestTools.git", from: "0.1.7")
     ],
     targets: [
         .target(name: "S3", dependencies: [
